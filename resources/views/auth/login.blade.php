@@ -12,6 +12,7 @@
                 </div>
 
                 <div class="card-body login-form">
+                    <div class="fb-login-button" data-size="large" data-button-type="login_with" data-auto-logout-link="true" data-use-continue-as="false"></div>
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
 
