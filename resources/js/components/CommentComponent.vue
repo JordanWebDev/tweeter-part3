@@ -13,6 +13,6 @@
         mounted() {
 
         },
-        props: ['comment']
+        props: ['comment','tweetId']
     }
 </script>

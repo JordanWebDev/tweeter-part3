@@ -2,12 +2,12 @@
     <div class="container">
         <!-- <form name="comments-form" method="post" action="tweets"> -->
 
-            <textarea v-model="search" class="form-control" name="comment" placeholder="Comment Here"></textarea>
+            <textarea v-model="newComment" class="form-control" name="comment" placeholder="Comment Here"></textarea>
 
             <input type="hidden" name="user_id" value="currentlyLoggedInUserInUserId" />
 
             <div class="align-right">
-                <button @click="getGif" class="btn btn-success">Comment</button>
+                <button @click="makeComment" class="btn btn-success">Comment</button>
             </div>
             <div class="container fluid">
                 <div class="layout row wrap justify-center">
@@ -56,14 +56,14 @@
             },
             getGif(){
 alert();
-                return axios("https://api.giphy.com/v1/gifs/search?q=" + this.search + "&api_key=doN7pilpkc58wRLVJiriZQkes6IAYz4k&q=hello&limit=20&offset=0&rating=G&lang=en", {
-                method: 'GET',
-                mode: 'no-cors',
-                headers: {
-                'Access-Control-Allow-Origin': '*',
-                'Content-Type': 'application/json',
-                    },
-                })
+                // return axios("https://api.giphy.com/v1/gifs/search?q=" + this.search + "&api_key=doN7pilpkc58wRLVJiriZQkes6IAYz4k&q=hello&limit=20&offset=0&rating=G&lang=en", {
+                // method: 'GET',
+                // mode: 'no-cors',
+                // headers: {
+                // 'Access-Control-Allow-Origin': '*',
+                // 'Content-Type': 'application/json',
+                //     },
+                // })
 
 
                 // axios.get("https://api.giphy.com/v1/gifs/search?q=" + this.search + "api_key=doN7pilpkc58wRLVJiriZQkes6IAYz4k&q=hello&limit=20&offset=0&rating=G&lang=en")
@@ -75,19 +75,19 @@ alert();
                 //         //this.gif.push( element.images.fixed_height.url);
                 //     });
                 // });
-                // axios.get('https://api.giphy.com/v1/gifs/search?q=' + this.search + '&api_key=' + this.apiKey + '&limit=' + this.limit)
-                //     .then((response) => {
-                //
-                //         console.log(response.data.data[0].images.fixed_height.url)
-                //
-                //         this.gif = response.data[0];
-                //
-                //         this.gifSrc = response.data.data[0].images.fixed_height.url;
-                //
-                //     })
-                //     .catch(function(error){
-                //         console.log(error);
-                //     })
+                axios.get('https://api.giphy.com/v1/gifs/search?q=' + this.search + '&api_key=' + this.apiKey + '&limit=' + this.limit)
+                    .then((response) => {
+
+                        console.log(response.data.data[0].images.fixed_height.url)
+
+                        this.gif = response.data[0];
+
+                        this.gifSrc = response.data.data[0].images.fixed_height.url;
+
+                    })
+                    .catch(function(error){
+                        console.log(error);
+                    })
             }
         },
         props: ['tweetId']
