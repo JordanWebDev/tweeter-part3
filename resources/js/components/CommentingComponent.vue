@@ -2,12 +2,12 @@
     <div class="container">
         <!-- <form name="comments-form" method="post" action="tweets"> -->
 
-            <textarea v-model="newComment" class="form-control" name="comment" placeholder="Comment Here"></textarea>
+            <textarea v-model="search" class="form-control" name="comment" placeholder="Comment Here"></textarea>
 
             <input type="hidden" name="user_id" value="currentlyLoggedInUserInUserId" />
 
             <div class="align-right">
-                <button @click="makeComment" class="btn btn-success">Comment</button>
+                <button @click="getGif" class="btn btn-success">Comment</button>
             </div>
             <div class="container fluid">
                 <div class="layout row wrap justify-center">
