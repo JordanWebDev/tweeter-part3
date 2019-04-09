@@ -25,6 +25,7 @@ Vue.component('tweet-component', require('./components/TweetComponent.vue').defa
 Vue.component('comments-component', require('./components/CommentsComponent.vue').default);
 Vue.component('comment-component', require('./components/CommentComponent.vue').default);
 Vue.component('commenting-component', require('./components/CommentingComponent.vue').default);
+Vue.component('upload-component', require('./components/UploadComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

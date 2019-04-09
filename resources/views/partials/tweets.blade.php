@@ -24,6 +24,7 @@ $tweets = Tweet::orderBy('created_at', 'DESC')->get();
                             <textarea class="form-control" name="tweet" placeholder="Enter Tweet Here"></textarea>
                             <button class="btn btn-success">TweetMessage</button>
                         </form>
+                        <upload-component :user="{{auth()->user()}}"></upload-component>
                     </div>
                     <div id="tweetsWrapper">
                         <tweet-component v-for="tweet in tweets" :tweet=tweet></tweet-component>

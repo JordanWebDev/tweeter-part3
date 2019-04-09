@@ -45,6 +45,8 @@ Route::post('tweets', 'PostsController@create');
 
 Route::post('tweets', 'PostsController@create_comment');
 
+Route::post('tweets', 'ImageController@upload');
+
 Route::get('home/{id}', 'PostsController@show');
 
 Route::post('delete', 'PostsController@destroy');
