@@ -1,0 +1,252 @@
+body{
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+}
+footer{
+    background-color: white;
+
+}
+.emp-profile{ padding: 3%; margin-top: 3%; margin-bottom: 3%; border-radius: 0.5rem; background: #fff;}
+.profile-img{ text-align: center;}
+.profile-img img{ width: 70%; height: 100%;}
+.profile-img .file { position: relative; overflow: hidden; margin-top: -20%; width: 70%; border: none;
+    border-radius: 0; font-size: 15px; background: #212529b8;}
+.profile-img .file input { position: absolute; opacity: 0; right: 0; top: 0;}
+.profile-head h5{ color: #333;}
+.profile-head h6{ color: #0062cc;}
+.profile-edit-btn{ border: none; border-radius: 1.5rem; width: 70%; padding: 2%; font-weight: 600; color: #6c757d;}
+.proile-rating{ font-size: 12px; color: #818182; margin-top: 5%;}
+.proile-rating span{ color: #495057; font-size: 15px; font-weight: 600;}
+.profile-head .nav-tabs{ margin-bottom:5%;}
+.profile-head .nav-tabs .nav-link{ font-weight:600; border: none;}
+.profile-head .nav-tabs .nav-link.active{ border: none; border-bottom:2px solid #0062cc;}
+.profile-work{ padding: 14%; margin-top: -15%;}
+.profile-work p{ font-size: 12px; color: #818182; font-weight: 600; margin-top: 10%;}
+.profile-work a{ text-decoration: none; color: #495057; font-weight: 600; font-size: 14px;}
+.profile-work ul{ list-style: none;}
+.profile-tab label{ font-weight: 600;}
+.profile-tab p{ font-weight: 600; color: #0062cc;}
+.containbird {
+    background-image: url('../images/birdmainbackdrop.png');
+    height: 100%;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-left: 100%;
+
+}#interests{
+margin-left: 20%; font-weight: bold; font-size: 23px; padding: 10px; color: white;
+}#people{
+margin-left: 20%; font-weight: bold; font-size: 23px; padding: 10px; color: white;
+}#join{
+margin-left: 20%; font-weight: bold; font-size: 23px; padding: 10px; color: white;
+}
+#background-div { background-color: lightgrey;}
+.footerlinks{ padding: 5px; margin-left: 38%; background-color: white;}
+.navigation1{ padding: 60px; font-style: bold; font-size: 40px; }
+#dropdown-menucss{ background-color: white; color: black;}
+.homebuttons{ display: block; margin-bottom: 16px;}
+.column2{ height: auto;}
+.mainpg{ height: 610px;}
+#toplogbtn{ margin-top: 50%; margin-left: 55px; padding: 5px; width: 80px;
+    border-radius: 20px; background-color: white; color: #1da1f2;
+    border: 2px solid #1da1f2;
+    &:hover{
+        color: black;
+        background-color: lightblue;
+    }
+}
+#loginbtn{ padding: 5px; width: 326px; background-color: white; color: #1da1f2;
+    border-radius: 20px; font-size: 15px;
+    &:hover{
+        background-color: lightblue;
+    }
+}
+#signupbtn{ padding: 5px; width: 326px; border-radius: 20px; font-size: 15px;}
+#h2see{ padding: 5px;}
+#h3join{ padding: 5px;}
+.rightsidepg{ margin: auto; width: 350px; height: 326;}
+#bluelogologin{ height:40px; width: 40px;}
+.loginheadernav { list-style-type: none; margin-left: 15%; padding: 0; overflow: hidden; background-color: inherit;
+:hover{ text-decoration: none; color: black;}}
+#Home { padding: 5px;}
+#About { padding: 5px;}
+#emaillog { margin-left: 30px;}
+#passwordlog { margin-left: 30px;}
+#remember { margin-left: -60%;}
+#remembertext { margin-left: -55%;}
+#loginbttn { margin-left: -44%;}
+.new_to_twitter{ padding: 10px; margin-left: 5%; margin-top: 2%;}
+.already_have_an_account { padding: 10px; margin-left: 10%; margin-top: 2%;}
+.profile-header-container{ text-align: center;}
+.tweet-contentborder { border-style: solid; border-radius: 15px; padding:15px; border-color:blue;}
+.comment-contentborder{ border-style: solid; border-radius: 15px; padding:15px; border-color: lightblue; margin-bottom: 5px;}
+.author-tweet{ border-bottom: 1px solid blue; padding: 15px;}
+.tweet-tweets{ padding: 15px;}
+.btn{ margin-top: 5px;}
+.profile-header-img { padding: 10px;}
+#footer-links{ margin-left: 0%;}
+
+.profile-header-img img.img-circle {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #1da1f2;
+}
+#learnmore-button {
+
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: block;
+    vertical-align: center;
+    position: absolute;
+    transition: .5s ease;
+    top:60%;
+    left: 17%;
+    width: 25%;
+    border-radius: 100px;
+    border-color: white;
+    background-color: black;
+    background-image: url('../images/Twitter_Logo_Blue.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    line-height: 20px;
+
+    &:hover {
+        background-color: #1da1f2;
+    }
+}
+.twitter-background{
+    background-image: url('../images/marketbackground.jpg');
+    background-repeat: no-repeat;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fontfamily{
+    font-family: "Helvetica Neue", "Roboto", "Segoe UI", "Calibri", "sans-serif";
+}
+.background-text {
+    padding-top: 14%;
+    padding-right: 50%;
+    color: black;
+
+
+    #titlecard {font-size: 70px;}
+    #motto {font-size: 40px;}
+
+}
+.panel{
+    height:100%;
+    width: 100%;
+}
+.color-blue{
+    background: url('https://www.sparklogix.com/wp-content/uploads/2012/05/Screen-Shot-2012-05-21-at-9.40.23-PM.png');
+    background-size: contain;
+    height: 100%;
+}
+.color-turqoise{
+    background: url('https://www.sparklogix.com/wp-content/uploads/2012/05/Screen-Shot-2012-05-21-at-9.40.23-PM.png');
+    background-size: contain;
+    height: 100%;
+}
+.color-green {
+    background: url('https://www.sparklogix.com/wp-content/uploads/2012/05/Screen-Shot-2012-05-21-at-9.40.23-PM.png');
+    background-size: contain;
+    height: 100%;
+}
+.color-red{
+    background: url('https://www.sparklogix.com/wp-content/uploads/2012/05/Screen-Shot-2012-05-21-at-9.40.23-PM.png');
+    background-size: contain;
+    height: 100%;
+}
+.voiceimg{ height: 225;}
+.coffeeImg { height:180;}
+.container-content {
+    padding: 50px 0;
+
+    .tweeter-content{
+        background: lightblue;
+    }
+    .content-main{
+        display: block;
+        border: 5px solid darkblue;
+        padding: 30px 8%;
+        padding-top: 80px;
+        position: relative;
+        overflow: hidden;
+        color: black;
+    }
+}
+.likeUnlikeBtn {
+    display: none;
+}
+.displaying {
+    display: inline-block;
+}
+.login-card{ margin-left: 16%;}
+@media only screen and (max-width: 1200px) {
+
+    .login-card{ margin-left: 16%; width: 700px;}
+    .footerlinks{
+        margin-left: 30%;
+    }
+}
+@media only screen and (max-width: 992px) {
+
+    .login-card{ margin-left: 5%; width: 700px;}
+    .footerlinks{
+        margin-left: 30%;
+    }
+}
+@media only screen and (max-width: 768px) {
+
+    #learnmore-button{
+        padding:15px;
+        padding-left: 15%;
+        padding-right: 20%;
+
+    }
+    .login-card{ margin: 0%; width: 38em;}
+    .login-container1{ margin-right:15%;}
+    .footerlinks{
+        margin-left: 20%;
+    }
+    .nav-container{ margin-left: 0%;}
+    #emaillog { width: 60%;}
+    #passwordlog { width: 60%;}
+    #remember { margin-left: 5%;}
+    #remembertext { margin-left: 10%;}
+    #forgot-pass{ margin-left: 35%;}
+
+}
+@media only screen and (max-width: 576px) {
+
+  .footerlinks{
+      margin-left:20%;
+      padding: 20px;
+
+  }
+  .mainpg .containbird{
+      display: none;
+  }
+  .rightsidepg{
+      margin-left: 40%;
+      margin-top: 20%;
+  }
+  #toplogbtn{
+      display: none;
+  }
+  .login-form{ margin-left: 10%;}
+  .login-card{ margin: 0%; width: 35em;}
+  .login-container1{ margin-right:0%;}
+  .footerlinks{
+      margin-left: 20%;
+  }
+  .new_to_twitter{ margin-left: 16%;}
+  .nav-container{ margin-left: -15%;}
+  #emaillog { width: 60%;margin-left: 15%;}
+  #passwordlog { width: 60%;margin-left: 15%;}
+  #remember { margin-left: 10%;}
+  #remembertext { margin-left: 15%;}
+  #forgot-pass{ margin-left: 50%;}
+}
