@@ -294,7 +294,7 @@ footer {
   #learnmore-button:hover {
     background-color: #1da1f2; }
 
-.twitter-background {
+#twitter-background {
   background-image: url("../images/marketbackground.jpg");
   background-repeat: no-repeat;
   height: 700px;

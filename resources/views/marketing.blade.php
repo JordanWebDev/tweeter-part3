@@ -4,11 +4,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Marketing-Page for Tweeter is a social media networking application currently ranking number one in the world">
         <meta name="author" content="Professional-Marketer & creator and ceo of tweeter the social networking application, jordan hayward">
-        <meta name="keywords" content="tweeter social media application number 1 relevant news reports trending topics connect grow your business create a audience"
+        <meta name="keywords" content="tweeter social media application number 1 relevant news reports trending topics connect grow your business create a audience" />
 
-        <link rel="stylesheet" href="{{ URL::asset('css/tweeter.css')}}" />
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="{{ URL::asset('css/tweeter.css')}}" />
 
         <title>Marketing - grow your business with our social application and connect with people all over the world</title>
     </head>
@@ -18,7 +18,7 @@
         @include('partials.nav')
 
 
-        <header class="twitter-background text-center text-white">
+        <header class="text-center" id="twitter-background">
             <div class="marketing-content">
                 <div class="container">
                     <div class="background-text">
